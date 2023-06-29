@@ -4001,6 +4001,7 @@ input, select, textarea {
   display: flex;
   justify-content: center;
   align-items: top;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .column {
