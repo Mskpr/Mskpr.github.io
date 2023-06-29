@@ -4000,11 +4000,11 @@ input, select, textarea {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
 }
 
 .column {
-  width: 200px; /* Adjust width as needed */
+  width: 250px; /* Adjust width as needed */
   text-align: center;
   /*background-color: #f2f2f2;  Optional background color */
   padding: 20px; /* Optional padding around each column */
