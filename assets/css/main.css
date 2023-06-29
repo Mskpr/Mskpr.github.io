@@ -3997,3 +3997,27 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust spacing between columns */
+}
+
+.column {
+  width: 25%;
+  text-align: center;
+  background-color: #f2f2f2; /* Optional background color */
+  padding: 20px; /* Optional padding around each column */
+}
+
+.column img {
+  max-width: 100%;
+}
+
+.column h3 {
+  margin-top: 10px;
+}
+
+.column p {
+  margin-top: 5px;
+}
