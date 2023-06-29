@@ -3999,15 +3999,19 @@ input, select, textarea {
 	}
 .container {
   display: flex;
-  justify-content: center;
-  gap: 20px; /* Adjust spacing between columns */
+  justify-content: flex-start;
 }
 
 .column {
-  width: 25%;
+  width: 200px; /* Adjust width as needed */
   text-align: center;
   background-color: #f2f2f2; /* Optional background color */
   padding: 20px; /* Optional padding around each column */
+  margin-right: 20px; /* Optional margin between columns */
+}
+
+.column:last-child {
+  margin-right: 0; /* Remove margin from the last column */
 }
 
 .column img {
