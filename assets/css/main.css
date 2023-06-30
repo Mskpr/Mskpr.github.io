@@ -4264,11 +4264,13 @@ color: #d0d5db;
 .headerlink {
   position: relative;
   display: inline-block;
+	color: #d0d5db !important;
 }
 
 .headerlink a {
   text-decoration: none;
   transition: text-decoration 0.3s !important;
+	color: #d0d5db !important;
 }
 
 .headerlink::after {
@@ -4280,7 +4282,7 @@ color: #d0d5db;
   height: 2px;
   background-color: black;
   transform: scaleX(0);
-  transition: transform 0.3s;
+  transition: transform 0.3s !important;
 }
 
 .headerlink:hover a {
@@ -4288,5 +4290,5 @@ color: #d0d5db;
 }
 
 .headerlink:hover::after {
-  transform: scaleX(1);
+  transform: scaleX(1) !important;
 }
