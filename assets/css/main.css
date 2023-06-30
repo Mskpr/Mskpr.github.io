@@ -2697,43 +2697,43 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(8) {
-			background-color: rgba(0, 0, 0, 0.6);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(9) {
-			background-color: rgba(0, 0, 0, 0.675);
+			background-color: #895737;
 		}
 
 		.spotlight:nth-child(10) {
-			background-color: rgba(0, 0, 0, 0.75);
+			background-color: #895737;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3133,7 +3133,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: transparent;
+			background-color: #895737;
 		}
 
 		.wrapper.style5 {
@@ -3752,6 +3752,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		background-color: #895737;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
@@ -4191,7 +4192,6 @@ input, select, textarea {
 .column {
   width: 350px; /* Adjust width as needed */
   text-align: center;
-  /*background-color: #f2f2f2;  Optional background color */
   padding: 20px; /* Optional padding around each column */
   margin-right: 20px; /* Optional margin between columns */
 }
