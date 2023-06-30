@@ -4206,15 +4206,23 @@ input, select, textarea {
   margin-right: 0; /* Remove margin from the last column */
 }
 
+.column .content {
+  text-align: left;
+}
+
 .column img {
   max-width: 100%;
+  align: left;
 }
 
 .column h3 {
   margin-top: 10px;
   font-size: 18px;
+  text-align: left;
 }
 
 .column p {
   margin-top: 5px;
+  font-size: 14px;
+  text-align: left;
 }
