@@ -3784,6 +3784,7 @@ input, select, textarea {
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+			color: #d0d5db;
 		}
 
 			#banner2 h2:before, #banner h2:after {
@@ -3801,6 +3802,7 @@ input, select, textarea {
 				height: 2px;
 				position: absolute;
 				width: 100%;
+				color: #d0d5db;
 			}
 
 			#banner2 h2:before {
@@ -3816,6 +3818,7 @@ input, select, textarea {
 		#banner2 p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
+			color: #d0d5db;
 		}
 
 			#banner p a {
@@ -3837,7 +3840,7 @@ input, select, textarea {
 			transform: translateY(0);
 			border: none;
 			bottom: 0;
-			color: inherit;
+			color: #d0d5db;
 			font-size: 0.8em;
 			height: 8.5em;
 			left: 50%;
@@ -3943,6 +3946,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		max-width: 45em;
+		color: #d0d5db;
 	}
 
 		#cta .inner header {
@@ -4008,6 +4012,7 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
+		color: #d0d5db;
 	}
 
 		#main > header h2 {
@@ -4213,11 +4218,13 @@ input, select, textarea {
   margin-top: 10px;
   font-size: 18px;
   text-align: left;
+	color: #d0d5db;
 }
 
 .column p {
   margin-top: 5px;
   font-size: 14px;
   text-align: left;
+color: #d0d5db;
   line-height: 1.2; /* Adjust line height as needed */
 }
