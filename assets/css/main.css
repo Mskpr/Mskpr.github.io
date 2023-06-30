@@ -4190,7 +4190,7 @@ input, select, textarea {
 }
 
 .column {
-  width: 350px; /* Adjust width as needed */
+  width: 300px; /* Adjust width as needed */
   text-align: center;
   padding: 20px; /* Optional padding around each column */
   margin-right: 20px; /* Optional margin between columns */
@@ -4219,5 +4219,5 @@ input, select, textarea {
   margin-top: 5px;
   font-size: 14px;
   text-align: left;
-  line-height: 1.1; /* Adjust line height as needed */
+  line-height: 1.2; /* Adjust line height as needed */
 }
