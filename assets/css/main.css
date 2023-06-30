@@ -2687,6 +2687,7 @@ input, select, textarea {
 			order: 2;
 			max-width: 48em;
 			width: 60%;
+			color: #d0d5db;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2744,6 +2745,7 @@ input, select, textarea {
 
 			.spotlight .content {
 				width: 55%;
+				color: #d0d5db;
 			}
 
 		}
@@ -2767,6 +2769,7 @@ input, select, textarea {
 					max-width: none;
 					text-align: center;
 					width: 100%;
+					color: #d0d5db;
 				}
 
 		}
@@ -4197,6 +4200,7 @@ input, select, textarea {
 }
 .header {
   text-align: center;
+	color: #d0d5db;
 }
 
 .columns-container {
