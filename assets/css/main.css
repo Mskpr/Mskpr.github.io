@@ -2697,43 +2697,43 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(6) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(7) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(8) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(9) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.spotlight:nth-child(10) {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3133,7 +3133,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style4 {
-			background-color: #895737;
+			background-color: #1b222a;
 		}
 
 		.wrapper.style5 {
@@ -3752,7 +3752,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #895737;
+		background-color: #1b222a;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
