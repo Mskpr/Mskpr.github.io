@@ -95,7 +95,7 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-	body, input, select, textarea, column {
+	body, input, select, textarea {
 		color: #fff;
 		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
@@ -4219,11 +4219,17 @@ input, select, textarea {
   font-size: 18px;
   text-align: left;
 	color: #d0d5db;
+		font-family: "Open Sans", Helvetica, sans-serif;
+		font-weight: 400;
+		letter-spacing: 0.075em;
 }
 
 .column p {
   margin-top: 5px;
   font-size: 14px;
+		font-family: "Open Sans", Helvetica, sans-serif;
+		font-weight: 400;
+		letter-spacing: 0.075em;
   text-align: left;
 color: #d0d5db;
   line-height: 1.2; /* Adjust line height as needed */
