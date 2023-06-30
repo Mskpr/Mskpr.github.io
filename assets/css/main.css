@@ -4260,3 +4260,14 @@ color: #d0d5db;
   .container {
     width: 100%; /* Full width on mobile */
     margin-bottom: 20px; /* Optional margin between columns */
+.headerlink {
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+	box-shadow: inherit;
+  	transition: box-shadow 0.3s;
+}
+
+.headerlink:hover {
+  text-decoration: underline;
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
