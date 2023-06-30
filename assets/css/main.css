@@ -4192,8 +4192,12 @@ input, select, textarea {
   justify-content: center;
   align-items: top;
   background-color: #1b222a;
+  padding-top: 20px; /* Adjust top padding as needed */
+  padding-bottom: 20px; /* Adjust bottom padding as needed */
 }
-
+.header {
+  text-align: center;
+}
 .column {
   width: 300px; /* Adjust width as needed */
   text-align: center;
@@ -4235,7 +4239,12 @@ color: #d0d5db;
   line-height: 1.2; /* Adjust line height as needed */
 }
 
-@media (max-width: 767px) {
-  .column {
+@media screen (max-width: 767px) {
+  .container {
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 20px; /* Optional margin between columns */
+
+	  @media screen (max-width: 980px) {
+  .container {
     width: 100%; /* Full width on mobile */
     margin-bottom: 20px; /* Optional margin between columns */
