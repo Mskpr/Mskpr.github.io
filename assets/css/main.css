@@ -2689,6 +2689,9 @@ input, select, textarea {
 			width: 60%;
 			color: #d0d5db;
 		}
+.spotlight .content h2 {
+  color: #d0d5db; /* Your desired color */
+}
 
 		.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
@@ -4260,35 +4263,3 @@ color: #d0d5db;
   .container {
     width: 100%; /* Full width on mobile */
     margin-bottom: 20px; /* Optional margin between columns */
-	  
-.headerlink {
-  position: relative;
-  display: inline-block;
-	color: #d0d5db !important;
-}
-
-.headerlink a {
-  text-decoration: none;
-  transition: text-decoration 0.3s !important;
-	color: #d0d5db !important;
-}
-
-.headerlink::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background-color: black;
-  transform: scaleX(0);
-  transition: transform 0.3s !important;
-}
-
-.headerlink:hover a {
-  text-decoration: underline !important; 
-}
-
-.headerlink:hover::after {
-  transform: scaleX(1) !important;
-}
