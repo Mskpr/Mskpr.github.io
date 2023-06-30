@@ -4228,3 +4228,8 @@ input, select, textarea {
 color: #d0d5db;
   line-height: 1.2; /* Adjust line height as needed */
 }
+
+@media (max-width: 767px) {
+  .column {
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 20px; /* Optional margin between columns */
