@@ -4198,6 +4198,13 @@ input, select, textarea {
 .header {
   text-align: center;
 }
+
+.columns-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .column {
   width: 300px; /* Adjust width as needed */
   text-align: center;
