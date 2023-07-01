@@ -4278,3 +4278,37 @@ color: #d0d5db;
   .container {
     width: 100%; /* Full width on mobile */
     margin-bottom: 20px; /* Optional margin between columns */
+
+
+.unique-section .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.unique-section .image-section {
+  order: 1;
+}
+
+.unique-section .text-section {
+  order: 0;
+}
+
+@media (min-width: 768px) {
+  .unique-section .container {
+    flex-direction: row;
+  }
+	@media (min-width: 980px) {
+  .unique-section .container {
+    flex-direction: row;
+  }
+
+  .unique-section .image-section {
+    flex-basis: 50%;
+    order: 0;
+  }
+
+  .unique-section .text-section {
+    flex-basis: 50%;
+    order: 1;
+  }
+}
