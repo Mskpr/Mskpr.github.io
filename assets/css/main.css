@@ -4280,35 +4280,45 @@ color: #d0d5db;
     margin-bottom: 20px; /* Optional margin between columns */
 
 
-.unique-section .container {
+	  .portfolio-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
-.unique-section .image-section {
-  order: 1;
+.portfolio-text-section {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
 }
 
-.unique-section .text-section {
-  order: 0;
+.portfolio-image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-image-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px; /* Adjust the spacing between images */
 }
 
 @media (min-width: 768px) {
-  .unique-section .container {
-    flex-direction: row;
+  .portfolio-container {
+    align-items: center;
   }
-	@media (min-width: 980px) {
-  .unique-section .container {
-    flex-direction: row;
-  }
-
-  .unique-section .image-section {
-    flex-basis: 50%;
-    order: 0;
+  
+  .portfolio-text-section {
+    width: 300px;
+    margin-right: 20px; /* Adjust the spacing between text and images */
+    order: 1; /* Change the order to move text section below images */
+    text-align: left;
   }
 
-  .unique-section .text-section {
-    flex-basis: 50%;
-    order: 1;
+  .portfolio-image-section {
+    order: 0; /* Change the order to move image section above text */
   }
 }
+
