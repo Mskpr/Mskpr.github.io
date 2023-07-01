@@ -139,8 +139,9 @@ input, select, textarea {
 		position: relative;
 	}
 
-a:not(#menu)::after {
+a:not(.menuToggle)::after {
   content: "";
+  position: absolute;
   bottom: -2px;
   left: 0;
   width: 100%;
@@ -149,11 +150,11 @@ a:not(#menu)::after {
   transition: background-color 0.3s ease;
 }
 
-a:not(#menu):hover {
+a:not(.menuToggle):hover {
   border-bottom-color: transparent;
 }
 
-a:not(#menu):hover::after {
+a:not(.menuToggle):hover::after {
   background-color: #d0d5db; /* Your desired underline color */
 }
 		
