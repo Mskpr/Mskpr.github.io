@@ -2126,6 +2126,12 @@ object-fit: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+	height: 100%; /* Add this line to make the container take full height */
+}
+
+.image.video-bg video {
+  max-width: 100%; /* Add this line to make the video fit within the container */
+  max-height: 100%; /* Add this line to make the video fit within the container */
 }
 
 		.image.left {
