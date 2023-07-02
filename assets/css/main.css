@@ -2118,6 +2118,14 @@ a:not(.menuToggle):hover::after {
   display: block;
   width: 100%; /* Ensure videos fill the container */
   max-height: 100%; /* Limit the height of videos to maintain aspect ratio */
+object-fit: cover;
+}
+
+.image.video-bg {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 		.image.left {
