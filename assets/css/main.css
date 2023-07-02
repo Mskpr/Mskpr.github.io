@@ -2015,16 +2015,6 @@ a:not(.menuToggle):hover::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start; /* Align items to the top */
-}
-
-.box.alt .col-4 {
-  flex-basis: 33.33333%;
-  max-width: 33.33333%;
-}
-
-.box.alt .col-4:nth-child(2) {
-  position: relative;
 }
 
 
