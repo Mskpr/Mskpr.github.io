@@ -2122,16 +2122,20 @@ object-fit: cover;
 }
 
 .image.video-bg {
+  position: relative; /* Add position relative to enable vertical alignment */
   background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-	height: 100%; /* Add this line to make the container take full height */
+  height: 100%; /* Add this line to make the container take full height */
 }
 
 .image.video-bg video {
   max-width: 100%; /* Add this line to make the video fit within the container */
   max-height: 100%; /* Add this line to make the video fit within the container */
+  width: auto; /* Set width to auto to maintain aspect ratio */
+  height: auto; /* Set height to auto to maintain aspect ratio */
+  object-fit: contain; /* Use object-fit: contain to fit the video within the container */
 }
 
 		.image.left {
