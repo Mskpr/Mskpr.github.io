@@ -2138,6 +2138,13 @@ object-fit: cover;
   object-fit: contain; /* Use object-fit: contain to fit the video within the container */
 }
 
+.image.video-bg span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Add this line to make the span take full height */
+}
+
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
