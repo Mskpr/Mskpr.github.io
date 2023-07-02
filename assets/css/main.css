@@ -4305,8 +4305,21 @@ color: #d0d5db;
   .container {
     width: 100%; /* Full width on mobile */
     margin-bottom: 20px; /* Optional margin between columns */
+	  }
+
+		}
 
 	  @media screen (max-width: 980px) {
   .container {
     width: 100%; /* Full width on mobile */
     margin-bottom: 20px; /* Optional margin between columns */
+	  }
+
+		}
+
+#second-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
