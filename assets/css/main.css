@@ -2014,6 +2014,7 @@ a:not(.menuToggle):hover::after {
 .box.alt {
   display: flex;
   flex-wrap: wrap;
+	align-items: center;
   justify-content: center;
 }
 
